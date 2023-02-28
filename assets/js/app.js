@@ -9,7 +9,7 @@ desplazarArriba.addEventListener("click", () => {
   });
 });
 
-// Selecciones para Barra de navegación hamburguesa
+// Selecciones para Barra de navegación 
 
 const burger = document.querySelector("#menu-hamburguesa");
 const ul = document.querySelector("nav ul");
@@ -20,7 +20,7 @@ burger.addEventListener("click", () => {
   });
 
 
-// Cerrar el menú de hambuguesa cuando se hace click en un enlace  
+// Cerrar el menú cuando se hace click en un enlace  
 
 // Seleccionar enlaces de navegación
 const navLink = document.querySelectorAll(".nav-link");

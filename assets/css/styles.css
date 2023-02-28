@@ -6,11 +6,11 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --bg-color: #ffffff;
+  --primary-color: #9377a9;
+  --secondary-color: #6602b3;
+  --primary-shadow: #9377a9;
+  --secondary-shadow: #9377a9;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -100,7 +100,7 @@ nav ul li {
 }
 
 .hero img {
-  height: 27.5rem;
+  height: 20.5rem;
   
 }
 
@@ -123,6 +123,7 @@ nav ul li {
 .mas-sobre {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+
 }
 
 .mas-sobre h2 {
@@ -342,3 +343,16 @@ footer {
     max-width: 17.75rem;
   }
 } 
+
+strong {
+box-shadow: 0 3px 10px var(--secondary-shadow);
+width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+ 
+}
+
